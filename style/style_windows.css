@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Terminus"; 
+    src: url("../fonts/TerminusTTF-4.49.3.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+        
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #f8f9fa; /* Добавляем светло-серый фон */
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 36px; /* Увеличиваем размер заголовка */
+    text-align: center;
+    color: #2052af; /* Красный цвет текста */
+    margin-top: 20px; /* Увеличиваем отступ сверху */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex-basis: 30%;
+    background-color: #fff; /* Белый фон */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.center {
+    text-align: center;
+    color: #2052af; /* Красный цвет текста */
+}
+
+.column h2 {
+    color: #2d78e9; /* Красный цвет заголовков */
+}
+
+.column p {
+    color: #555; /* Цвет обычного текста */
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li a {
+    color: #001ea3; /* Красный цвет ссылок */
+    text-decoration: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+.passe-partout {
+    margin-top: 12px;
+    padding: auto;
+    height: 180px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+}
+
+.image-container{
+    width: 240px;
+    height: 160px;
+}
+
+.image-container-avaya{
+    width: 280px;
+    height: 100px;
+}
+
+a {
+    transition: .3s all;
+    opacity: 1;
+    font-size: 1.3em;
+    text-shadow: 0 0 10px #fff;
+}
+a:hover {
+    color: #fff;    
+    text-decoration: none;
+    opacity: .6;
+}
